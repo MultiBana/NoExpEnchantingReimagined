@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "package": "com.multibana.enchantingreimagined.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "AdvancementManagerMixin",
+    "AnvilScreenHandlerMixin",
+    "DamageEnchantmentMixin",
+    "EfficiencyEnchantmentMixin",
+    "EnchantmentsMixin",
+    "EnderDragonEntityMixin",
+    "ExperienceOrbEntityMixin",
+    "InfinityEnchantmentMixin",
+    "LuckEnchantmentMixin",
+    "PowerEnchantmentMixin",
+    "ProtectionEnchantmentMixin",
+    "RiptideEnchantmentMixin",
+    "TridentItemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
